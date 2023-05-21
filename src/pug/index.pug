@@ -29,7 +29,9 @@ html(lang='en')
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top.shadow-sm
             .container.px-5
-                a.navbar-brand.fw-bold(href='#page-top') Start Bootstrap
+                a.navbar-brand.fw-bold(href='#page-top')
+                    img.app-badge.mb-4(src='assets/img/eatfit-logo.svg', alt='...')
+                    span.h1 EatFit
                 button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu
                     i.bi-list
@@ -39,10 +41,10 @@ html(lang='en')
                             a.nav-link.me-lg-3(href='#features') Features
                         li.nav-item
                             a.nav-link.me-lg-3(href='#download') Download
-                    button.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0(data-bs-toggle='modal', data-bs-target='#feedbackModal')
+                    a.btn.btn-primary.rounded-pill.px-3.mb-2.mb-lg-0(href='https://www.facebook.com/profile.php?id=100092405547562&mibextid=LQQJ4d', target='_blank')
                         span.d-flex.align-items-center
                             i.bi-chat-text-fill.me-2
-                            span.small Send Feedback
+                            span.small Gửi phản hồi
 
         // Mashead header
         header.masthead
@@ -51,8 +53,8 @@ html(lang='en')
                     .col-lg-6
                         // Mashead text and app badges
                         .mb-5.mb-lg-0.text-center.text-lg-start
-                            h1.display-1.lh-1.mb-3 Showcase your app beautifully.
-                            p.lead.fw-normal.text-muted.mb-5 Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!
+                            h1.display-1.lh-1.mb-3 Một bước tiến ngoạn mục cho sức khỏe
+                            p.lead.fw-normal.text-muted.mb-5 Trải nghiệm ngay ứng dụng của chúng tôi và cải thiện sức khỏe từ hôm nay!
                             .d-flex.flex-column.flex-lg-row.align-items-center
                                 a.me-lg-3.mb-4.mb-lg-0(href='#!')
                                     img.app-badge(src='assets/img/google-play-badge.svg', alt='...')
@@ -79,7 +81,7 @@ html(lang='en')
             .container.px-5
                 .row.gx-5.justify-content-center
                     .col-xl-8
-                        .h2.fs-1.text-white.mb-4 "An intuitive solution to a common problem that we all face, wrapped up in a single app!"
+                        .h2.fs-1.text-white.mb-4 "Thay đổi cuộc sống với EatFit: Hỗ trợ cá nhân hóa để trở thành phiên bản tốt nhất của bạn!"
                         img(src='assets/img/tnw-logo.svg', alt='...', style='height: 3rem;')
 
         // App features section
@@ -93,27 +95,27 @@ html(lang='en')
                                     // Feature item
                                     .text-center
                                         i.bi-phone.icon-feature.text-gradient.d-block.mb-3
-                                        h3.font-alt Device Mockups
-                                        p.text-muted.mb-0 Ready to use HTML/CSS device mockups, no Photoshop required!
+                                        h3.font-alt Tương thích đa nền tảng
+                                        p.text-muted.mb-0  Tương thích trên mọi thiết bị, giúp bạn tiếp cận và trải nghiệm dễ dàng.
                                 .col-md-6.mb-5
                                     // Feature item
                                     .text-center
                                         i.bi-camera.icon-feature.text-gradient.d-block.mb-3
-                                        h3.font-alt Flexible Use
-                                        p.text-muted.mb-0 Put an image, video, animation, or anything else in the screen!
+                                        h3.font-alt Track bằng hình ảnh
+                                        p.text-muted.mb-0 Lưu trữ bằng hình ảnh, video để trải nghiệm theo dõi bữa ăn sống động hơn!
                             .row
                                 .col-md-6.mb-5.mb-md-0
                                     // Feature item
                                     .text-center
                                         i.bi-gift.icon-feature.text-gradient.d-block.mb-3
-                                        h3.font-alt Free to Use
-                                        p.text-muted.mb-0 As always, this theme is free to download and use for any purpose!
+                                        h3.font-alt Ăn, tập và nhận thưởng
+                                        p.text-muted.mb-0 Với mỗi bữa ăn ghi nhận, mỗi buổi tập hoàn thành, bạn sẽ tích lũy điểm thưởng!
                                 .col-md-6
                                     // Feature item
                                     .text-center
                                         i.bi-patch-check.icon-feature.text-gradient.d-block.mb-3
-                                        h3.font-alt Open Source
-                                        p.text-muted.mb-0 Since this theme is MIT licensed, you can use it commercially!
+                                        h3.font-alt "Khắc phục tư thế tập
+                                        p.text-muted.mb-0 Phát triển cơ thể an toàn, hiệu quả, tránh những chấn thương không mong muốn!
                     .col-lg-4.order-lg-0
                         // Features section device mockup
                         .features-device-mockup
@@ -135,26 +137,30 @@ html(lang='en')
             .container.px-5
                 .row.gx-5.align-items-center.justify-content-center.justify-content-lg-between
                     .col-12.col-lg-5
-                        h2.display-4.lh-1.mb-4 Enter a new age of web design
-                        p.lead.fw-normal.text-muted.mb-5.mb-lg-0 This section is perfect for featuring some information about your application, why it was built, the problem it solves, or anything else! There's plenty of space for text here, so don't worry about writing too much.
+                        h2.display-4.lh-1.mb-4 EatFit: Giải pháp hoàn hảo cho cuộc sống bận rộn!
+                        p.lead.fw-normal.text-muted.mb-5.mb-lg-0 EatFit đã ra đời với sứ mệnh giúp bạn kiểm soát cân nặng và tập luyện một cách dễ dàng, hiệu quả.
+                        p.lead.fw-normal.text-muted.mb-5.mb-lg-0.mt-4 Chúng tôi cung cấp các bài tập tùy chỉnh, lịch trình ăn uống phù hợp với nhu cầu và thời gian của bạn, hướng dẫn từng bước để tập luyện đúng cách và cung cấp thông tin dinh dưỡng quan trọng.
+                        p.lead.fw-normal.text-muted.mb-5.mb-lg-0.mt-4 Với giao diện đơn giản và dễ sử dụng, bạn dễ dàng theo dõi khẩu phần, tiến độ tập luyện và cảm nhận sự tiến bộ của mình. EatFit gửi thông báo để giữ vững thói quen lành mạnh và không bỏ lỡ bất kỳ mục tiêu nào.
+                        p.lead.fw-normal.text-muted.mb-5.mb-lg-0.mt-4 Hãy để EatFit trở thành người bạn đồng hành trong cuộc sống làm việc và gia đình!
                     .col-sm-8.col-md-6
                         .px-5.px-sm-0
-                            img.img-fluid.rounded-circle(src='https://source.unsplash.com/u8Jn2rzYIps/900x900', alt='...')
+                            img.img-fluid.rounded-circle(src='https://source.unsplash.com/ZMSZ4FxpdcI/900x900', alt='...')
 
         // Call to action section
         section.cta
             .cta-content
                 .container.px-5
                     h2.text-white.display-1.lh-1.mb-4
-                        | Stop waiting.
+                        | Tự tin hơn. Khỏe mạnh hơn.
                         br
-                        | Start building.
-                    a.btn.btn-outline-light.py-3.px-4.rounded-pill(href='https://startbootstrap.com/theme/new-age', target='_blank') Download for free
+                        | Tận hưởng cuộc sống tối đa.
+                    p.text-white.fs-4 Một sản phẩm của Hồng Vy, Hồng Ngọc, Lê My, Thiên Đức, Anh Huy, Ngân Hà
+                    a.fs-5.mt-3.btn.btn-outline-light.py-3.px-4.rounded-pill(href='https://www.facebook.com/profile.php?id=100092405547562&mibextid=LQQJ4d', target='_blank') Truy cập Facebook
 
         // App badge section
         section#download.bg-gradient-primary-to-secondary
             .container.px-5
-                h2.text-center.text-white.font-alt.mb-4 Get the app now!
+                h2.text-center.text-white.font-alt.mb-4 Download ngay!
                 .d-flex.flex-column.flex-lg-row.align-items-center.justify-content-center
                     a.me-lg-3.mb-4.mb-lg-0(href='#!')
                         img.app-badge(src='assets/img/google-play-badge.svg', alt='...')
@@ -165,7 +171,7 @@ html(lang='en')
         footer.bg-black.text-center.py-5
             .container.px-5
                 .text-white-50.small
-                    .mb-2 &copy; Your Website 2023. All Rights Reserved.
+                    .mb-2 &copy; EatFit 2023. All Rights Reserved.
                     a(href='#!') Privacy
                     span.mx-1 &middot;
                     a(href='#!') Terms
