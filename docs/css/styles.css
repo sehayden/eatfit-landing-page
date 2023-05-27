@@ -11160,3 +11160,9 @@ footer a:hover, footer a:active, footer a:focus {
     max-width: 17rem;
   }
 }
+
+section.about-us img {
+  height: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
